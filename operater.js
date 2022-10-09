@@ -33,3 +33,34 @@ while(true){
 numbering();
 
 var member =['eogoing','k8805','dadadas']
+
+var grades = {'egoing':10, 'k8805':20,'sorialgi':80}
+for(key in grades){
+    document.write("")
+}
+
+var grades = {
+    'list' :{'egoing':10, 'k8805':20,'sorialgi':80},
+    'show':function(){
+        alert("hellow world");
+    }
+
+}
+alert(grades['list']['egoing']);
+
+var grades = {
+    'list' :{'egoing':10, 'k8805':20,'sorialgi':80},
+    'show':function(){
+        alert("hellow world");
+    }
+
+}
+grades['show']();
+var grades = {
+    'list' :{'egoing':10, 'k8805':20,'sorialgi':80},
+    'show':function(){
+        console(this.list);
+    }
+
+}
+grades['show']();

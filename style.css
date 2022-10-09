@@ -1,0 +1,23 @@
+.header1{
+    font-size: 100px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.button1{
+    display: flex;
+    width: 50px;
+    height: 19px;
+    padding-left: 12.5px;
+    float: left;
+    margin-right: 10px;
+}
+.button2{
+    display: flex;
+    width: 50px;
+    height: 19px;
+    padding-right: 11.5px;
+    padding-left: 10px;
+    float: left;
+    
+}
